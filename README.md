@@ -32,41 +32,41 @@ An **OLED display** shows real-time sensor readings.
 ## 🔌 Circuit Connections
 
 **Soil Humidity Sensor (modul cu 4 pini: VCC, GND, A0, D0)**
--VCC → 5V
--GND → GND
--A0 → A0
--D0 → not connected
+- VCC → 5V
+- GND → GND
+- A0 → A0
+- D0 → not connected
 
 **DHT11 Sensor (Temperature and Humidity)**
--VCC → 5V
--GND → GND
--DATA → D2
+- VCC → 5V
+- GND → GND
+- DATA → D2
 
 **LDR Sensor Module**
--VCC → 5V
--GND → GND
--OUT → D3
+- VCC → 5V
+- GND → GND
+- OUT → D3
 
 **LED**
--VCC → 5V
--GND → GND (use a 220 Ohm resistor in series)
+- VCC → 5V
+- GND → GND (use a 220 Ohm resistor in series)
 
 **Fan Module (5V)**
--INA → D5 (PWM)
--INB → D6 (PWM)
--VCC → 5V
--GND → GND
+- INA → D5 (PWM)
+- INB → D6 (PWM)
+- VCC → 5V
+- GND → GND
 
 **Water Pump (usingH-Bridge L298N driver)**
--IN1 → D8
--IN2 → D7
--ENA → D9
--VCC → 5V
--GND → GND
--Motor Bridge → Pump 6V/GND (needs additional power supply)
+- IN1 → D8
+- IN2 → D7
+- ENA → D9
+- VCC → 5V
+- GND → GND
+- Motor Bridge → Pump 6V/GND (needs additional power supply)
 
 **Display OLED I2C (SSD1306)**
--VCC → 5V
--GND → GND
--SDA → SDA (on arduino)
--SCL → SCL (on arduino)
+- VCC → 5V
+- GND → GND
+- SDA → SDA (on arduino)
+- SCL → SCL (on arduino)
